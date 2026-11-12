@@ -10,6 +10,16 @@ Run with:  python tournament_bracket.py
 from dataclasses import dataclass
 from drafter import *
 
+set_website_title("Tournament Bracket Maker")
+
+set_site_information(
+    author="James Farley",
+    description="A website for creating and running a four-team sports tournament.",
+    sources="",
+    planning="",
+    links=["https://github.com/jamesfar-del/tournament-bracket"]
+)
+
 # Global constants
 SEMIFINAL_ROUND = 1
 CHAMPIONSHIP_ROUND = 2
